@@ -17,7 +17,7 @@ module.exports = (phase) => {
       if (isDev) return "http://localhost:3000/api/";
       if (isProd) {
         // Note: The code below needs to be uncommented, and you should use your domin where your API is hosted.
-        // return 'Enter Your URL here'
+        return 'http://localhost:3000/api/'
       }
       if (isStaging) return "http://localhost:3000/api/";
       return "RESTURL_SPEAKERS:not (isDev,isProd && !isStaging,isProd && isStaging)";
