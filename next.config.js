@@ -14,15 +14,15 @@ module.exports = (phase) => {
 
   const env = {
     API_PROD_URL: (() => {
-      if (isDev) return "http://localhost:3000/api/";
+      if (isDev) return "https://e-comerce-weld.vercel.app/api";
       if (isProd) {
         // Note: The code below needs to be uncommented, and you should use your domin where your API is hosted.
-        return 'http://localhost:3000/api/'
+        return 'https://e-comerce-weld.vercel.app/api'
       }
-      if (isStaging) return "http://localhost:3000/api/";
+      if (isStaging) return "https://e-comerce-weld.vercel.app/api/";
       return "RESTURL_SPEAKERS:not (isDev,isProd && !isStaging,isProd && isStaging)";
     })(),
-    API_BASE_URL: "http://localhost:3000/api",
+    API_BASE_URL: "https://e-comerce-weld.vercel.app/api",
   };
   const redirects = () => {
     return [
