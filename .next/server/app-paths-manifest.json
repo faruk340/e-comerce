@@ -1,0 +1,7 @@
+{
+  "/api/self/route": "app/api/self/route.js",
+  "/[lng]/(mainLayout)/home/page": "app/[lng]/(mainLayout)/home/page.js",
+  "/[lng]/(mainLayout)/collections/page": "app/[lng]/(mainLayout)/collections/page.js",
+  "/[lng]/(mainLayout)/cart/page": "app/[lng]/(mainLayout)/cart/page.js",
+  "/[lng]/(mainLayout)/search/page": "app/[lng]/(mainLayout)/search/page.js"
+}
